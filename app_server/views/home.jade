@@ -1,0 +1,87 @@
+extends layout
+include _includes/sharedHTMLfunctions
+
+block content
+  .row.banner
+    .col-12.text-center   
+      h1 Welcome to FoodZee
+      p Discover the perfect restaurant for your next meal.
+
+  // Main Content Area
+  .row
+    .col-12
+      .row
+        .col-md-6.col-lg-6
+          .card
+            .card-block
+              h4
+                a(href="/location") streetfood 
+              .row
+                .col-6
+                  p.facilities
+                    span.badge.badge-warning Fast food, fast service!
+                    br
+                    span.badge.badge-warning Must Try Items
+                    br
+                    span.badge.badge-warning -Fried Rice
+                    br
+                    span.badge.badge-warning -Noodles
+                    br
+                    span.badge.badge-warning - Chicken 65
+                .col-6
+                  img(src="https://img.freepik.com/premium-photo/fast-food-restaurant-shop-store-interior-view-ai-generated-image_629524-5583.jpg", alt="streetfood Image", class="img-fluid")
+
+        .col-md-6.col-lg-6
+          .card
+            .card-block
+              h4
+                a(href="/softybakers") Softy Bakers 
+              .row
+                .col-6
+                  p.facilities
+                     span.badge.badge-warning A world of flavors, baked to perfection
+                     br
+                     span.badge.badge-warning Must Try Items
+                     br
+                     span.badge.badge-warning -Chicken Sandwich
+                     br
+                     span.badge.badge-warning -Muffins
+                .col-6
+                  img(src="https://www.mashed.com/img/gallery/6-best-and-6-worst-grocery-stores-to-buy-cakes/intro-1679092161.jpg", alt="softybakers Image", class="img-fluid")
+
+      .row
+        .col-md-6.col-lg-6
+          .card
+            .card-block
+              h4
+                a(href="/RaghavendraTiffins") Raghavendar Tiffins
+              .row
+                .col-6
+                  p.facilities
+                    span.badge.badge-warning A daily dose of home-cooked goodness
+                    br
+                    span.badge.badge-warning Must Try Items
+                    br
+                    span.badge.badge-warning -Begum Basar Dosa
+                    br
+                    span.badge.badge-warning -Pesarattu
+                .col-6
+                  img(src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/46/84/d4/out-view.jpg", alt="RaghavendraTiffins Image", class="img-fluid")
+
+        .col-md-6.col-lg-6
+          .card
+            .card-block
+              h4
+                a(href="/BiryaniWaala") Biryani Waala
+              .row
+                .col-6
+                  p.facilities
+                    span.badge.badge-warning Authentic biryani, made to perfection
+                    br
+                    span.badge.badge-warning Must Try Items
+                    br
+                    span.badge.badge-warning -Mutton Dum Biryani
+                    br
+                    span.badge.badge-warning -Fry piece Chicken Dum Biryani
+                .col-6
+                  img(src="https://b.zmtcdn.com/data/pictures/8/20724148/823583db83538485eb4477c95ada149e.jpg", alt="BiryaniWaala Image", class="img-fluid")
